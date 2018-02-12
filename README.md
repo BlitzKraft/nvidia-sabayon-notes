@@ -14,6 +14,19 @@ Linux distro.
 * This crashes my xserver on start up. So, drop to a tty and load the kernel
   module (`sudo modprobe nvidia`) `startx -- :1` there. After every restart.
   Still needs a fix. 
+* Some GNOME apps don't work. Tried `gnome-control-center`. Crash with error:
+	```
+	i965_dri.so does not support the 0xffffffff PCI ID.
+
+	(gnome-control-center:11613): GLib-CRITICAL **: g_strsplit: assertion 'string != NULL' failed
+	i965_dri.so does not support the 0xffffffff PCI ID.
+
+	(gnome-control-center:11613): GLib-CRITICAL **: g_strsplit: assertion 'string != NULL' failed
+	Segmentation fault (core dumped)
+	```
+  `gnome-calculator` works. `gnome-terminal` doesn't produce any output, but
+  also doesn't start a terminal. Using `qterminal` as an alternative. `xterm`
+  and `uxterm` work fine.
 * Without the `eselect` step, running `steam` causes error "OpenGL GLX
   extension not supported by display".  
 * Without the `eselect` step, running `optirun steam` causes error
