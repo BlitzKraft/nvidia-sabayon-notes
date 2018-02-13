@@ -45,6 +45,10 @@ Linux distro.
 * CPU temps rise, and seem to settle at 72-74 degrees C, when playing steam
   games. My system idles at 42-44 deg C.
 
+# Scripts
+* `copy_launch_options` copies the `LD_PRELOAD` commands to the clipboard. In
+  steam, navigate to the launch options and Ctrl-V to paste.
+
 ## My hardware
 * Acer Aspire E 15, E5-575G-53VG
 * Processor: Intel Core i5-6200U 2.3GHz

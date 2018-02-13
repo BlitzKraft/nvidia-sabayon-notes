@@ -1,0 +1,4 @@
+# Copy this to the clip board
+# Only works if xclip is installed
+echo "LD_PRELOAD=\"\${LD_PRELOAD/libdlfaker.so:libvglfaker.so:/}:libdlfaker.so:libvglfaker.so\" %command%¬" | xclip -selection clipboard
+
