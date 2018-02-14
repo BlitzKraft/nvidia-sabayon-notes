@@ -3,7 +3,7 @@ Linux distro.
 
 ## Installation
 * The kernel version of the driver should match the kernel version on the OS.
-* Install the drivers from the repos. Current version is 387.34. Package names
+* Install the drivers from the repos. Current version is 390.25. Package names
   are nvidia-drivers, nvidia-userspace-drivers. 
 * Install bumblebee
 * Check the number for nvidia on `eselect opengl list`. Set it to use nvidia by
